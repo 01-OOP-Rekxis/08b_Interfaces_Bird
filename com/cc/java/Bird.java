@@ -4,12 +4,12 @@ public class Bird implements Flyable, IFeathers {
 
     @Override
     public String fly() {
-        return "I can fly at 50mph!";
+        return "I'm a bird, I can fly!";
     }
 
     @Override
     public String hasFeathers() {
-        return "I have x feathers!";
+        return "I'm a bird, I have feathers.";
     }
 
 }
